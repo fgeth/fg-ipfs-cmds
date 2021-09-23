@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	cmds "github.com/ipfs/go-ipfs-cmds"
+	cmds "github.com/fgeth/fg-ipfs-cmds"
 	logging "github.com/ipfs/go-log"
 	cors "github.com/rs/cors"
 )
@@ -132,7 +132,7 @@ func (h *handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	// If we have a request body, make sure the preamble
 	// knows that it should close the body if it wants to
 	// write before completing reading.
-	// FIXME: https://github.com/ipfs/go-ipfs/issues/5168
+	// FIXME: https://github.com/fgeth/fg-ipfs/issues/5168
 	// FIXME: https://github.com/golang/go/issues/15527
 	var bodyEOFChan chan struct{}
 	if r.Body != http.NoBody {

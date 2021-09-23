@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ipfs/go-ipfs-cmds"
+	"github.com/fgeth/fg-ipfs-cmds"
 
-	"github.com/ipfs/go-ipfs-files"
+	"github.com/fgeth/fg-ipfs-files"
 )
 
 const (

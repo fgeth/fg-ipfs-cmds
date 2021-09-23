@@ -3,9 +3,9 @@ package main
 import (
 	nethttp "net/http"
 
-	"github.com/ipfs/go-ipfs-cmds/examples/adder"
+	"github.com/fgeth/fg-ipfs-cmds/examples/adder"
 
-	http "github.com/ipfs/go-ipfs-cmds/http"
+	http "github.com/fgeth/fg-ipfs-cmds/http"
 )
 
 type env struct{}

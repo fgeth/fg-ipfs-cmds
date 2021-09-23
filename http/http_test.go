@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	cmds "github.com/ipfs/go-ipfs-cmds"
+	cmds "github.com/fgeth/fg-ipfs-cmds"
 
-	files "github.com/ipfs/go-ipfs-files"
+	files "github.com/fgeth/fg-ipfs-files"
 )
 
 func newReaderPathFile(t *testing.T, path string, reader io.ReadCloser, stat os.FileInfo) files.File {

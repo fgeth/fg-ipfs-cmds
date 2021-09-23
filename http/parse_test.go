@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	cmds "github.com/ipfs/go-ipfs-cmds"
+	cmds "github.com/fgeth/fg-ipfs-cmds"
 )
 
 func TestParse(t *testing.T) {

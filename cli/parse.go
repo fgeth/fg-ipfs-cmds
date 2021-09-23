@@ -12,8 +12,8 @@ import (
 	"strings"
 
 	osh "github.com/Kubuxu/go-os-helper"
-	cmds "github.com/ipfs/go-ipfs-cmds"
-	files "github.com/ipfs/go-ipfs-files"
+	cmds "github.com/fgeth/fg-ipfs-cmds"
+	files "github.com/fgeth/fg-ipfs-files"
 	logging "github.com/ipfs/go-log"
 )
 

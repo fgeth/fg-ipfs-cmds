@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	files "github.com/ipfs/go-ipfs-files"
+	files "github.com/fgeth/fg-ipfs-files"
 
-	cmds "github.com/ipfs/go-ipfs-cmds"
+	cmds "github.com/fgeth/fg-ipfs-cmds"
 )
 
 type kvs map[string]interface{}

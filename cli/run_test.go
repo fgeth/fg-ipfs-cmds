@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/go-ipfs-cmds"
+	"github.com/fgeth/fg-ipfs-cmds"
 )
 
 var root = &cmds.Command{

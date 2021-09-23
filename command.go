@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"strings"
 
-	files "github.com/ipfs/go-ipfs-files"
+	files "github.com/fgeth/fg-ipfs-files"
 
 	logging "github.com/ipfs/go-log"
 )

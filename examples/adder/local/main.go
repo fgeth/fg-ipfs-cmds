@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ipfs/go-ipfs-cmds/examples/adder"
+	"github.com/fgeth/fg-ipfs-cmds/examples/adder"
 
-	"github.com/ipfs/go-ipfs-cmds"
-	"github.com/ipfs/go-ipfs-cmds/cli"
+	"github.com/fgeth/fg-ipfs-cmds"
+	"github.com/fgeth/fg-ipfs-cmds/cli"
 )
 
 func main() {

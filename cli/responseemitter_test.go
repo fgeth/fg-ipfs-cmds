@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	cmds "github.com/ipfs/go-ipfs-cmds"
+	cmds "github.com/fgeth/fg-ipfs-cmds"
 )
 
 type tcCloseWithError struct {

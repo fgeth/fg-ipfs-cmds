@@ -9,7 +9,7 @@ import (
 	"strings"
 	"text/template"
 
-	cmds "github.com/ipfs/go-ipfs-cmds"
+	cmds "github.com/fgeth/fg-ipfs-cmds"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

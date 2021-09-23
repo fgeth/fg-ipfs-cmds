@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	cmds "github.com/ipfs/go-ipfs-cmds"
+	cmds "github.com/fgeth/fg-ipfs-cmds"
 )
 
 var (
@@ -269,7 +269,7 @@ func (re *responseEmitter) doPreamble(value interface{}) {
 
 	// If we have a request body, make sure we close the body
 	// if we want to write before completing reading.
-	// FIXME: https://github.com/ipfs/go-ipfs/issues/5168
+	// FIXME: https://github.com/fgeth/fg-ipfs/issues/5168
 	// FIXME: https://github.com/golang/go/issues/15527
 	if re.bodyEOFChan != nil {
 		select {

@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/ipfs/go-ipfs-cmds"
+	"github.com/fgeth/fg-ipfs-cmds"
 	"net/http"
 )
 
